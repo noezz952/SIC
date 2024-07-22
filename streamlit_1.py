@@ -13,7 +13,7 @@ config = {
     "authDomain": "sensor-b15c7.firebaseapp.com",
     "databaseURL": "https://sensor-b15c7-default-rtdb.firebaseio.com/",
     "storageBucket": "sensor-b15c7.appspot.com",
-    "serviceAccount": "/home/noezz/TA#2/kunci.json"
+    "serviceAccount": "kunci.json"
 }
 
 # Inisialisasi aplikasi Firebase
