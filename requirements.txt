@@ -1,3 +1,6 @@
 streamlit
 pyrebase4
 plyer
+xgboost
+numpy
+pandas
