@@ -4,3 +4,5 @@ plyer
 xgboost
 numpy
 pandas
+os
+dotenv
