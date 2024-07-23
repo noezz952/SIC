@@ -4,21 +4,10 @@ import numpy as np
 import pyrebase
 import time
 import pickle
-import os
-import json
-from dotenv import load_dotenv
 from plyer import notification
 
-load_dotenv('key.env')
+
 filename = 'XGBC_model.pkl'
-
-service_account_key_json = os.getenv('FIREBASE_SERVICE_ACCOUNT_KEY')
-
-if service_account_key_json is None:
-    raise ValueError("FIREBASE_SERVICE_ACCOUNT_KEY environment variable is not set or not found.")
-
-# Parse the JSON string into a Python dictionary
-service_account_key = json.loads(service_account_key_json)
 
 # Konfigurasi Firebase
 config = {
