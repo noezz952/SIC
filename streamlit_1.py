@@ -22,11 +22,13 @@ service_account_key = json.loads(service_account_key_json)
 
 # Konfigurasi Firebase
 config = {
-    "apiKey": "AIzaSyDjHeDbeIotvRUuF0XZLeiRFjKgfv-6KHo",
-    "authDomain": "sensor-b15c7.firebaseapp.com",
-    "databaseURL": "https://sensor-b15c7-default-rtdb.firebaseio.com/",
-    "storageBucket": "sensor-b15c7.appspot.com",
-    "serviceAccount": service_account_key
+  "apiKey": "AIzaSyDjHeDbeIotvRUuF0XZLeiRFjKgfv-6KHo",
+  "authDomain": "sensor-b15c7.firebaseapp.com",
+  "databaseURL": "https://sensor-b15c7-default-rtdb.firebaseio.com",
+  "projectId": "sensor-b15c7",
+  "storageBucket": "sensor-b15c7.appspot.com",
+  "messagingSenderId": "34611770004",
+  "appId": "1:34611770004:web:278e32c3bc729717ebba81"
 }
 
 # Inisialisasi aplikasi Firebase
