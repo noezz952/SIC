@@ -31,7 +31,7 @@ with open(filename, 'rb') as file:
     loaded_model = pickle.load(file)
 
 
-st.title("BsinG!")
+st.title("HeninG!")
 
 opsi_kelas = ["XA", "XB", "XC", "XD"]
 kelas = st.selectbox("Kelas:", opsi_kelas)
