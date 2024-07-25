@@ -75,10 +75,7 @@ def update_data():
     notification_text = "Kelas sangat berisik"
     notification_timeout = 1
     if y_pred == 1:
-        st.write(''':red[Kelas berisik]''')
-        notification.notify(
-            title=notification_title,
-            message=notification_text, timeout=notification_timeout)
+        st.error('Kelas berisik!!', icon="⚠️")
     else :
         st.write (''':green[Semua kelas Aman]''')
 
