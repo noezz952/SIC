@@ -72,7 +72,7 @@ def update_data():
     else:
         st.success('Kelas dalam keadaan aman.', icon="✅")
 
-interval = 5
+interval = 1
 
 while True:
     update_data()
