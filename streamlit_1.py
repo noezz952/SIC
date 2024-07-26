@@ -68,7 +68,7 @@ def update_data():
 
     if y_pred == 1:
         st.components.v1.html('<script>alert("Peringatan: Kelas sangat berisik!");</script>', height=0)
-        st.error('Kelas berisik!!', icon="⚠️")
+        #st.error('Kelas berisik!!', icon="⚠️")
     else:
         st.success('Kelas dalam keadaan aman.', icon="✅")
 
