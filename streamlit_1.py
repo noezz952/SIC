@@ -67,8 +67,8 @@ def update_data():
     y_pred = loaded_model.predict(data_tes)
 
     if y_pred == 1:
-        st.error('Kelas berisik!!', icon="⚠️")
         st.components.v1.html('<script>alert("Peringatan: Kelas sangat berisik!");</script>', height=0)
+        st.error('Kelas berisik!!', icon="⚠️")
     else:
         st.success('Kelas dalam keadaan aman.', icon="✅")
 
